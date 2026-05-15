@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LumenHeart with Chenoa | Somatic Healing & Cryotherapy in Loomis, CA</title>
+<meta name="description" content="Trauma-informed somatic bodywork, vagus nerve regulation, and cryotherapy in Loomis, CA. Chenoa Taylor helps you release stored tension and come back to your body.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,0..100,0..1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "LumenHeart with Chenoa",
+  "image": "https://static.glossgenius.com/public/stockimage/6636c63a353fa3f3ed98d845d3ba62a22d9a63d2/image/f5b84c602fd07f2ec6c246d97ede0f3e.png",
+  "description": "Somatic healing practice offering trauma-informed bodywork, vagus nerve regulation, cryotherapy, and red light therapy in Loomis, CA.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3793 Taylor Road #6",
+    "addressLocality": "Loomis",
+    "addressRegion": "CA",
+    "postalCode": "95650",
+    "addressCountry": "US"
+  },
+  "telephone": "+15304014737",
+  "url": "https://lumenheart.glossgenius.com",
+  "areaServed": ["Loomis", "Rocklin", "Roseville", "Auburn", "Newcastle", "Penryn", "Granite Bay", "Placer County"],
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Wednesday", "Thursday"], "opens": "10:00", "closes": "18:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "18:00"}
+  ],
+  "sameAs": ["https://www.instagram.com/lumenheart1111"]
+}
+</script>
+
+<style>
+:root {
+  --plum: #2A1B2E;
+  --plum-deep: #1A0F1D;
+  --aubergine: #4A2C4F;
+  --dawn: #E8A87C;
+  --dawn-soft: #F2C6A0;
+  --gold: #D4A574;
+  --gold-glow: #E8C99B;
+  --cream: #F8F1E7;
+  --cream-warm: #F2E8D8;
+  --ink: #2A1B2E;
+  --ink-soft: #5C4655;
+  --white: #FFFFFF;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.serif {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 50, "WONK" 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 50;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ============ NAV ============ */
+nav.top {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 28px 0;
+}
+
+nav.top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-mark {
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--cream);
+  letter-spacing: 0.02em;
+  font-variation-settings: "SOFT" 100;
+}
+
+.logo-mark em {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--gold-glow);
+}
+
+.nav-links {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: var(--cream);
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: opacity 0.3s;
+}
+
+.nav-links a:hover { opacity: 0.7; }
+
+.nav-cta {
+  background: var(--gold);
+  color: var(--plum-deep) !important;
+  padding: 10px 22px;
+  border-radius: 100px;
+  font-weight: 600 !important;
+}
+
+.nav-cta:hover { background: var(--gold-glow); opacity: 1 !important; }
+
+/* ============ HERO ============ */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: 
+    radial-gradient(ellipse at 20% 30%, rgba(232, 168, 124, 0.25), transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(212, 165, 116, 0.18), transparent 55%),
+    linear-gradient(180deg, var(--plum-deep) 0%, var(--aubergine) 100%);
+  display: flex;
+  align-items: center;
+  padding: 140px 0 80px;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.4) 0%, transparent 1.5px);
+  background-size: 4px 4px;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 880px;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--gold-glow);
+  font-size: 13px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.hero-eyebrow::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background: var(--gold-glow);
+}
+
+.hero h1 {
+  font-size: clamp(48px, 8vw, 96px);
+  color: var(--cream);
+  font-weight: 300;
+  margin-bottom: 32px;
+  letter-spacing: -0.035em;
+}
+
+.hero h1 em {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--dawn);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.hero-sub {
+  font-size: 19px;
+  color: var(--cream);
+  opacity: 0.85;
+  max-width: 580px;
+  margin-bottom: 48px;
+  line-height: 1.6;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 18px 36px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--dawn);
+  color: var(--plum-deep);
+}
+
+.btn-primary:hover {
+  background: var(--dawn-soft);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(232, 168, 124, 0.3);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--cream);
+  border: 1px solid rgba(248, 241, 231, 0.3);
+}
+
+.btn-ghost:hover {
+  border-color: var(--cream);
+  background: rgba(248, 241, 231, 0.05);
+}
+
+.hero-glyph {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 600px;
+  height: 600px;
+  opacity: 0.08;
+  z-index: 1;
+}
+
+.hero-glyph svg {
+  width: 100%; height: 100%;
+  animation: slow-spin 80s linear infinite;
+}
+
+@keyframes slow-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ============ INTRO STRIP ============ */
+.intro-strip {
+  background: var(--plum);
+  color: var(--cream);
+  padding: 32px 0;
+  border-top: 1px solid rgba(232, 168, 124, 0.15);
+  border-bottom: 1px solid rgba(232, 168, 124, 0.15);
+}
+
+.intro-strip .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-item {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.intro-item .num {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 28px;
+  color: var(--gold-glow);
+  font-weight: 300;
+  font-variation-settings: "SOFT" 100;
+}
+
+/* ============ WELCOME / ABOUT ============ */
+.welcome {
+  padding: 120px 0;
+  background: var(--cream);
+  position: relative;
+}
+
+.welcome .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.welcome-meta {
+  font-size: 13px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--aubergine);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.welcome h2 {
+  font-size: clamp(36px, 5vw, 56px);
+  color: var(--plum);
+  margin-bottom: 32px;
+}
+
+.welcome h2 em {
+  font-style: italic;
+  color: var(--aubergine);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.welcome p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  margin-bottom: 24px;
+}
+
+.signature {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 32px;
+  color: var(--aubergine);
+  margin-top: 32px;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+  font-weight: 400;
+}
+
+.signature small {
+  display: block;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.welcome-visual {
+  aspect-ratio: 4/5;
+  background: 
+    radial-gradient(ellipse at 30% 30%, var(--dawn-soft), transparent 60%),
+    radial-gradient(ellipse at 70% 70%, var(--gold-glow), transparent 60%),
+    linear-gradient(135deg, var(--aubergine), var(--plum));
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.welcome-visual::after {
+  content: '';
+  position: absolute;
+  inset: 30px;
+  border: 1px solid rgba(248, 241, 231, 0.2);
+  border-radius: 4px;
+}
+
+.welcome-visual-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--cream);
+  padding: 40px;
+}
+
+.welcome-visual-text .glyph {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 96px;
+  font-weight: 300;
+  color: var(--gold-glow);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+  line-height: 1;
+}
+
+.welcome-visual-text p {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 22px;
+  color: var(--cream);
+  margin-top: 24px;
+  font-weight: 300;
+  line-height: 1.4;
+  max-width: 280px;
+}
+
+.welcome-visual-text small {
+  margin-top: 32px;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-glow);
+}
+
+/* ============ WHAT IS SOMATIC ============ */
+.what-is {
+  padding: 120px 0;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-warm) 100%);
+}
+
+.section-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 80px;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--aubergine);
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  background: rgba(74, 44, 79, 0.08);
+  border-radius: 100px;
+}
+
+.section-header h2 {
+  font-size: clamp(36px, 5vw, 56px);
+  color: var(--plum);
+  margin-bottom: 24px;
+}
+
+.section-header h2 em {
+  font-style: italic;
+  color: var(--aubergine);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.section-header p {
+  font-size: 18px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 60px;
+}
+
+.edu-card {
+  background: var(--cream);
+  padding: 48px 36px;
+  border-radius: 12px;
+  position: relative;
+  border: 1px solid rgba(74, 44, 79, 0.1);
+  transition: all 0.4s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold);
+  box-shadow: 0 24px 60px rgba(42, 27, 46, 0.08);
+}
+
+.edu-card .num {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 56px;
+  font-weight: 300;
+  color: var(--dawn);
+  line-height: 1;
+  margin-bottom: 24px;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.edu-card h3 {
+  font-size: 26px;
+  color: var(--plum);
+  margin-bottom: 16px;
+}
+
+.edu-card p {
+  font-size: 15px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+
+/* ============ MODALITIES ============ */
+.modalities {
+  padding: 120px 0;
+  background: var(--plum-deep);
+  color: var(--cream);
+  position: relative;
+  overflow: hidden;
+}
+
+.modalities::before {
+  content: '';
+  position: absolute;
+  top: -200px; right: -200px;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(232, 168, 124, 0.15), transparent 70%);
+  border-radius: 50%;
+}
+
+.modalities::after {
+  content: '';
+  position: absolute;
+  bottom: -200px; left: -200px;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(212, 165, 116, 0.1), transparent 70%);
+  border-radius: 50%;
+}
+
+.modalities .container { position: relative; z-index: 2; }
+
+.modalities .section-header h2 { color: var(--cream); }
+.modalities .section-header h2 em { color: var(--dawn); }
+.modalities .section-header p { color: rgba(248, 241, 231, 0.75); }
+.modalities .section-eyebrow {
+  color: var(--gold-glow);
+  background: rgba(232, 168, 124, 0.12);
+}
+
+.modality-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  background: rgba(232, 168, 124, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.modality {
+  background: var(--plum-deep);
+  padding: 48px 40px;
+  transition: background 0.4s ease;
+  cursor: default;
+}
+
+.modality:hover { background: var(--aubergine); }
+
+.modality-tag {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold-glow);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.modality h3 {
+  font-size: 30px;
+  color: var(--cream);
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.modality h3 em {
+  font-style: italic;
+  color: var(--dawn);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.modality p {
+  color: rgba(248, 241, 231, 0.75);
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.modality-meta {
+  font-size: 13px;
+  color: var(--gold-glow);
+  letter-spacing: 0.05em;
+}
+
+/* ============ PAIN SECTION ============ */
+.pain {
+  padding: 120px 0;
+  background: var(--cream-warm);
+}
+
+.pain-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.pain h2 {
+  font-size: clamp(36px, 5vw, 56px);
+  color: var(--plum);
+  margin-bottom: 32px;
+}
+
+.pain h2 em {
+  font-style: italic;
+  color: var(--aubergine);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.pain-lead {
+  font-size: 19px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin-bottom: 32px;
+}
+
+.pain-list {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.pain-list li {
+  font-size: 16px;
+  padding: 14px 0;
+  color: var(--ink);
+  border-bottom: 1px solid rgba(74, 44, 79, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.pain-list li::before {
+  content: '';
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--dawn);
+  flex-shrink: 0;
+}
+
+.pain-stat {
+  background: var(--white);
+  padding: 56px 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(74, 44, 79, 0.1);
+  position: relative;
+}
+
+.pain-stat .big {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 72px;
+  font-weight: 300;
+  color: var(--aubergine);
+  line-height: 1;
+  margin-bottom: 20px;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.pain-stat p {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.pain-stat cite {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--aubergine);
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(74, 44, 79, 0.15);
+}
+
+/* ============ TESTIMONIAL / QUOTE ============ */
+.quote {
+  padding: 120px 0;
+  background: var(--cream);
+  text-align: center;
+}
+
+.quote blockquote {
+  max-width: 860px;
+  margin: 0 auto;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.35;
+  color: var(--plum);
+  letter-spacing: -0.015em;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.quote blockquote::before {
+  content: '"';
+  display: block;
+  font-size: 120px;
+  line-height: 0.5;
+  color: var(--dawn);
+  margin-bottom: 32px;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+/* ============ BOOKING / CTA ============ */
+.cta-section {
+  padding: 120px 0;
+  background: linear-gradient(135deg, var(--aubergine) 0%, var(--plum-deep) 100%);
+  color: var(--cream);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px; height: 800px;
+  background: radial-gradient(circle, rgba(232, 168, 124, 0.15), transparent 60%);
+  border-radius: 50%;
+}
+
+.cta-section .container { position: relative; z-index: 2; }
+
+.cta-section h2 {
+  font-size: clamp(40px, 6vw, 72px);
+  color: var(--cream);
+  margin-bottom: 28px;
+  font-weight: 300;
+}
+
+.cta-section h2 em {
+  font-style: italic;
+  color: var(--dawn);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.cta-section p {
+  font-size: 19px;
+  color: rgba(248, 241, 231, 0.8);
+  max-width: 560px;
+  margin: 0 auto 48px;
+  line-height: 1.6;
+}
+
+.cta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 760px;
+  margin: 60px auto 0;
+}
+
+.cta-detail {
+  padding: 32px 20px;
+  border: 1px solid rgba(232, 168, 124, 0.25);
+  border-radius: 12px;
+}
+
+.cta-detail .label {
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold-glow);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.cta-detail .value {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  color: var(--cream);
+  font-weight: 300;
+}
+
+.cta-detail .value a:hover { color: var(--dawn); }
+
+/* ============ FAQ ============ */
+.faq {
+  padding: 120px 0;
+  background: var(--cream);
+}
+
+.faq-list {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(74, 44, 79, 0.15);
+  padding: 32px 0;
+}
+
+.faq-item:first-child { border-top: 1px solid rgba(74, 44, 79, 0.15); }
+
+.faq-item h3 {
+  font-size: 24px;
+  color: var(--plum);
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+
+/* ============ FOOTER ============ */
+footer {
+  background: var(--plum-deep);
+  color: var(--cream);
+  padding: 80px 0 32px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 60px;
+}
+
+.footer-brand h3 {
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 16px;
+}
+
+.footer-brand h3 em {
+  font-style: italic;
+  color: var(--gold-glow);
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: rgba(248, 241, 231, 0.65);
+  line-height: 1.7;
+  max-width: 380px;
+}
+
+.footer-col h4 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold-glow);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 10px; }
+.footer-col a {
+  font-size: 14px;
+  color: rgba(248, 241, 231, 0.75);
+  transition: color 0.3s;
+}
+.footer-col a:hover { color: var(--dawn); }
+
+.footer-bottom {
+  border-top: 1px solid rgba(232, 168, 124, 0.15);
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 12px;
+  color: rgba(248, 241, 231, 0.5);
+}
+
+.disclaimer {
+  background: rgba(232, 168, 124, 0.05);
+  padding: 24px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: rgba(248, 241, 231, 0.55);
+  line-height: 1.7;
+  margin-bottom: 32px;
+  border: 1px solid rgba(232, 168, 124, 0.1);
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 900px) {
+  .container { padding: 0 24px; }
+
+  .nav-links { gap: 20px; }
+  .nav-links a:not(.nav-cta) { display: none; }
+
+  .welcome .container,
+  .pain-grid,
+  .edu-grid,
+  .modality-list,
+  .cta-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .welcome { padding: 80px 0; }
+  .what-is, .modalities, .pain, .cta-section, .faq, .quote { padding: 80px 0; }
+
+  .hero { padding: 120px 0 60px; min-height: auto; }
+  .hero-ctas { flex-direction: column; align-items: stretch; }
+  .btn { text-align: center; }
+
+  .modality { padding: 36px 28px; }
+  .edu-card { padding: 36px 28px; }
+  .pain-stat { padding: 40px 32px; }
+  .pain-stat .big { font-size: 56px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top">
+  <div class="container">
+    <a href="#" class="logo-mark">Lumen<em>Heart</em></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#somatic">Somatic Work</a>
+      <a href="#services">Services</a>
+      <a href="https://lumenheart.glossgenius.com/book" class="nav-cta">Book</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glyph">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#E8C99B" stroke-width="0.3">
+      <circle cx="100" cy="100" r="80"/>
+      <circle cx="100" cy="100" r="60"/>
+      <circle cx="100" cy="100" r="40"/>
+      <circle cx="100" cy="100" r="20"/>
+      <line x1="100" y1="20" x2="100" y2="180"/>
+      <line x1="20" y1="100" x2="180" y2="100"/>
+      <line x1="40" y1="40" x2="160" y2="160"/>
+      <line x1="160" y1="40" x2="40" y2="160"/>
+    </svg>
+  </div>
+
+  <div class="container hero-content">
+    <div class="hero-eyebrow">Somatic Healing &amp; Cryotherapy · Loomis, CA</div>
+    <h1>Come back<br>to <em>your body.</em></h1>
+    <p class="hero-sub">Your body keeps the score, and it also keeps the key. I work with women carrying chronic pain, stored trauma, and nervous systems that haven't felt safe in years — using somatic bodywork, vagus nerve regulation, and cryotherapy to help you settle, soften, and come home to yourself.</p>
+    <div class="hero-ctas">
+      <a href="https://lumenheart.glossgenius.com/book" class="btn btn-primary">Book a Session</a>
+      <a href="#somatic" class="btn btn-ghost">What is somatic work?</a>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO STRIP -->
+<div class="intro-strip">
+  <div class="container">
+    <div class="intro-item"><span class="num">10+</span> Years on the healing path</div>
+    <div class="intro-item"><span class="num">7</span> Modalities under one roof</div>
+    <div class="intro-item"><span class="num">1:1</span> Private, unhurried sessions</div>
+    <div class="intro-item"><span class="num">∞</span> Held with care</div>
+  </div>
+</div>
+
+<!-- WELCOME / ABOUT -->
+<section class="welcome" id="about">
+  <div class="container">
+    <div>
+      <div class="welcome-meta">Hi, I'm Chenoa</div>
+      <h2>I help you release what your body has been <em>holding for you.</em></h2>
+      <p>I'm a somatic practitioner, yoga teacher, and a mother of three. I started this work about ten years ago because I needed it myself. The longer I've practiced, the more I've trusted what the body knows.</p>
+      <p>My sessions are gentle, slow, and trauma-informed. We work with red light therapy, tuning forks, vagus nerve stimulation, and the deeper layers of your tissue — opening space for what's stored there to soften and move. You don't have to perform. You don't have to explain. You just have to show up.</p>
+      <p>When I'm not in the studio, I'm with my kids, near water, behind a camera, or making art.</p>
+      <div class="signature">— Chenoa<small>Founder, LumenHeart</small></div>
+    </div>
+    <div class="welcome-visual">
+      <div class="welcome-visual-text">
+        <div class="glyph">L</div>
+        <p>"The wound is the place where the Light enters you."</p>
+        <small>— Rumi</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT IS SOMATIC -->
+<section class="what-is" id="somatic">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Education</span>
+      <h2>What is <em>somatic</em> bodywork?</h2>
+      <p>Somatic comes from the Greek <em>soma</em> — meaning <em>the body, as lived</em>. It's the difference between massaging muscles and listening to a nervous system. Here's what makes this work different.</p>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="num">01</div>
+        <h3>It's a conversation, not a procedure.</h3>
+        <p>Traditional massage works on you. Somatic work works <em>with</em> you. I'll ask what you notice, where your attention goes, what feels stuck. The body has been waiting to be asked.</p>
+      </div>
+      <div class="edu-card">
+        <div class="num">02</div>
+        <h3>It treats the nervous system, not just the muscle.</h3>
+        <p>Chronic pain and tension often live downstream of a nervous system stuck in alert mode. We work with the vagus nerve, breath, and gentle touch to bring the body back toward rest.</p>
+      </div>
+      <div class="edu-card">
+        <div class="num">03</div>
+        <h3>It honors what's been stored.</h3>
+        <p>Old grief, old fear, old vigilance — your tissue remembers all of it. Somatic work creates a safe space for those patterns to release at the pace your body chooses, never forced.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODALITIES -->
+<section class="modalities" id="services">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">The Toolkit</span>
+      <h2>Seven ways back <em>to yourself.</em></h2>
+      <p>Each session blends what your body needs that day. Below is what I work with — alone or layered together.</p>
+    </div>
+
+    <div class="modality-list">
+      <div class="modality">
+        <div class="modality-tag">Signature Session</div>
+        <h3>Trauma <em>Somatic</em> Healing</h3>
+        <p>Gentle massage combined with vagus nerve stimulation, red light therapy, and tuning forks. We open space for stored tension and emotion to move through the body at its own pace.</p>
+        <div class="modality-meta">60 min · $125+</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Deep Work</div>
+        <h3>Let's Go <em>Deeper</em></h3>
+        <p>A full ninety minutes — full body, feet included. Vagus nerve stimulation and red light woven throughout. For when you need the long version.</p>
+        <div class="modality-meta">90 min · $175+</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Chronic Pain</div>
+        <h3>Cryo<em>Pain</em></h3>
+        <p>Targeted cold therapy on the area that's been holding you back. Cold has been used for pain since Hippocrates — for a reason. Most people benefit from a series, with maintenance built in.</p>
+        <div class="modality-meta">30 min · $150 · packages available</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Nervous System</div>
+        <h3>Vagus Nerve <em>Regulation</em></h3>
+        <p>The vagus nerve is the main highway between your brain and your body. When it's regulated, you can rest. We work with stimulation, head and neck massage, and belly work to bring it back online.</p>
+        <div class="modality-meta">30 min · $50</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Energetic</div>
+        <h3>Tuning Fork <em>Chakra</em> Opening</h3>
+        <p>Each chakra opened with tuning forks and crystals placed in the corresponding areas, while I guide you through meditation. For when the body wants sound, not pressure.</p>
+        <div class="modality-meta">30 min · $45</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Restorative</div>
+        <h3>Red Light <em>Therapy</em></h3>
+        <p>Sit under red light while I give you a face massage. Cellular support, calm, and presence — all in one quiet half hour.</p>
+        <div class="modality-meta">30 min · $50</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Cryotherapy Body</div>
+        <h3>Cryo <em>Body Work</em></h3>
+        <p>Cryotherapy facial, CryoSlim for the abdomen, and targeted body sessions for arms, legs, and back. Cold therapy is best as a series — most clients book six.</p>
+        <div class="modality-meta">From $75 · packages available</div>
+      </div>
+
+      <div class="modality">
+        <div class="modality-tag">Inner Work</div>
+        <h3>Inner Child <em>Release</em></h3>
+        <p>A guided meditation through a specific childhood moment, held in a slow, safe container. Please reach out before booking this one — we'll make sure it's the right fit for where you are.</p>
+        <div class="modality-meta">105 min · $200</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHRONIC PAIN SECTION -->
+<section class="pain">
+  <div class="container">
+    <div class="pain-grid">
+      <div>
+        <h2>When the pain isn't <em>just the pain.</em></h2>
+        <p class="pain-lead">Most chronic pain has more than one address. There's the spot that hurts — and there's the nervous system that hasn't been able to put down its guard. Working with one without the other only gets you so far.</p>
+        <p class="pain-lead">I see this with people carrying:</p>
+        <ul class="pain-list">
+          <li>Tension that physical therapy hasn't fully resolved</li>
+          <li>Old injuries the body is still bracing around</li>
+          <li>Anxiety, hypervigilance, or a sense of never truly resting</li>
+          <li>Disconnection from the body after trauma or loss</li>
+          <li>Headaches, jaw pain, gut issues that come and go</li>
+          <li>Sleep that won't quite arrive, or won't stay</li>
+        </ul>
+        <p style="font-size: 16px; color: var(--ink-soft); line-height: 1.7;">If any of that sounds familiar, this work is for you. Start with a Trauma Somatic Healing Session — we'll go from there.</p>
+      </div>
+
+      <div class="pain-stat">
+        <div class="big">soma</div>
+        <p><em>Greek. The body, as lived from within.</em></p>
+        <p>Researchers now describe many chronic pain conditions as nervous system dysregulation — the body stuck in protection mode even after the original injury has healed.</p>
+        <p>The path back isn't about pushing harder. It's about teaching the body, slowly, that it's safe to soften.</p>
+        <cite>That's the whole practice.</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote">
+  <div class="container">
+    <blockquote>
+      You don't have to perform here. You don't have to explain. Your body already knows what it needs — my work is to make space for it.
+    </blockquote>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to <em>begin?</em></h2>
+    <p>Sessions are by appointment, one at a time, with plenty of room around them. The booking calendar is live — pick the modality that calls to you, and I'll see you soon.</p>
+
+    <a href="https://lumenheart.glossgenius.com/book" class="btn btn-primary" style="background: var(--dawn); padding: 20px 44px; font-size: 16px;">Book Your Session</a>
+
+    <div class="cta-grid">
+      <div class="cta-detail">
+        <div class="label">Studio</div>
+        <div class="value">3793 Taylor Rd #6<br>Loomis, CA 95650</div>
+      </div>
+      <div class="cta-detail">
+        <div class="label">Call or Text</div>
+        <div class="value"><a href="tel:+15304014737">(530) 401-4737</a></div>
+      </div>
+      <div class="cta-detail">
+        <div class="label">Hours</div>
+        <div class="value">Mon · Wed · Thu<br>10am – 6pm · Sun 11–6</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Questions</span>
+      <h2>What you might be <em>wondering.</em></h2>
+    </div>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>I've never had somatic work before. What should I expect?</h3>
+        <p>We'll start with a short conversation — what brought you in, what your body's been holding, what you'd like to feel afterward. Then you'll lie down on a heated table, fully clothed or undraped depending on the modality, and I'll work slowly. You can talk, stay quiet, ask questions, or fall asleep. There's no wrong way to be in the room.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What's the difference between this and a regular massage?</h3>
+        <p>A regular massage moves muscles. Somatic work also listens to the nervous system, the breath, the places that flinch or soften. The pressure is often lighter than people expect — the goal isn't to push through tension, it's to invite it to release. Many clients find this work goes deeper, with less force, than anything they've tried.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can cryotherapy actually help with chronic pain?</h3>
+        <p>Cold has been used for pain since Hippocrates wrote about it. Research today shows targeted cryotherapy can reduce inflammation, calm nerve sensitivity, and offer real relief for ongoing pain — especially when paired with nervous system work. I usually recommend a series of six sessions for chronic conditions, with maintenance after.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Is this work safe if I'm dealing with trauma or PTSD?</h3>
+        <p>This work is built for it. Every session is paced to your nervous system, not the clock. I never push past what your body is ready for. That said, I'm a somatic practitioner — not a licensed mental health provider. If you're in active crisis or working through significant trauma, please also stay connected with a therapist or doctor. We can complement that care beautifully.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How often should I come in?</h3>
+        <p>It depends what you're working with. For chronic pain or cryotherapy series, weekly for six sessions tends to land the best results. For somatic and nervous system work, every two to four weeks builds steady regulation. Many clients land in a monthly rhythm once their baseline shifts. We'll figure out what fits your body and your life.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Do you serve men, or just women?</h3>
+        <p>Most of my practice is women, but men are welcome. The work is the same — the only requirement is that you arrive willing to slow down.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+
+    <div class="disclaimer">
+      <strong>A note on this work:</strong> Sessions at LumenHeart are designed to support your overall wellbeing and complement medical or psychological care — they do not diagnose, treat, or cure medical or psychiatric conditions. Results vary, and depend on your unique body, history, and consistency. Please consult your physician before beginning any new wellness practice, especially if you have a medical condition, are pregnant, or are managing chronic pain under medical care.
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>Lumen<em>Heart</em></h3>
+        <p>Trauma-informed somatic bodywork, vagus nerve regulation, and cryotherapy in Loomis, California. Held with care by Chenoa Taylor.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About Chenoa</a></li>
+          <li><a href="#somatic">Somatic Work</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#">Chronic Pain</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="https://lumenheart.glossgenius.com/book">Book Online</a></li>
+          <li><a href="tel:+15304014737">(530) 401-4737</a></li>
+          <li>3793 Taylor Rd #6<br>Loomis, CA 95650</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/lumenheart1111">Instagram</a></li>
+          <li><a href="https://lumenheart.glossgenius.com">GlossGenius</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 LumenHeart with Chenoa · Loomis, CA</div>
+      <div>Site by <a href="https://stayvisible.co" style="color: var(--gold-glow);">Visible.</a></div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
