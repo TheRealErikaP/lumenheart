@@ -1,33 +1,35 @@
-# LumenHeart with Chenoa — Preview Site
+# LumenHeart with Chenoa — Homepage v3
 
-Homepage preview for Chenoa Taylor's somatic healing practice in Loomis, CA.
+Live preview site for Chenoa Taylor's somatic healing practice in Loomis, CA.
 
-## Live Preview
-Once deployed to GitHub Pages, the site will be live at:
-`https://[your-username].github.io/lumenheart-preview/`
+## Deploy to GitHub Pages
 
-## Deployment (2 minutes)
+1. Upload all files in this folder into your repo at `github.com/TheRealErikaP/lumenheart`
+   (or wherever the repo lives) on the **main** branch.
+2. Settings → Pages → Source: **Deploy from a branch** → Branch: **main** / **root** → Save
+3. Wait ~60 seconds.
+4. Live at `https://therealerikap.github.io/lumenheart/`
 
-1. Create a new repo on GitHub called `lumenheart-preview` (or any name)
-2. Drag all files from this folder into the repo (index.html, .nojekyll, README.md)
-3. Go to **Settings → Pages**
-4. Under "Build and deployment," set Source to **Deploy from a branch**
-5. Select branch: **main**, folder: **/ (root)**, click Save
-6. Wait ~60 seconds, then visit your GitHub Pages URL
+## Files needed in the repo
 
-## Files
+For the site to render correctly, these files must all be at the root of the repo:
 
-- `index.html` — The homepage
-- `.nojekyll` — Tells GitHub Pages to serve HTML as-is (skip Jekyll processing)
-- `README.md` — This file
+| File | Purpose |
+|---|---|
+| `index.html` | The homepage |
+| `lumenheart-lockup.png` | Logo (nav + footer) |
+| `chenoa.jpg` | Chenoa's headshot (in the About section) |
+| `bodylines.jpg` | Body line drawing accent (used 2x as decoration) |
+| `.nojekyll` | Tells GitHub Pages to serve HTML as-is |
 
-## Tech
+You already uploaded `chenoa.jpg` and `bodylines.jpg`. This bundle adds `index.html`,
+`lumenheart-lockup.png`, and `.nojekyll`.
 
-- Single-file HTML with embedded CSS
-- Google Fonts: Fraunces + Plus Jakarta Sans
-- Schema.org structured data for local SEO
-- Mobile responsive
-- No build step, no dependencies
+## Brand
+
+- **Logo**: Italiana + Pinyon Script lockup with body line accent
+- **Palette**: Aurora pastel from her business card (blush, peach, sage, lavender, cream)
+- **Fonts**: Italiana (display), Pinyon Script (accent), Plus Jakarta Sans (body)
 
 ## Built by
 
