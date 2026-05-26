@@ -373,31 +373,53 @@ nav.top .container {
 }
 
 .welcome-grid {
-  display: grid;
-  grid-template-columns: 0.95fr 1.05fr;
-  gap: 80px;
-  align-items: center;
+  display: block;
 }
 
 /* Headshot — pulls from GitHub repo */
 .headshot-wrap {
   position: relative;
+  margin-bottom: 80px;
 }
 
 .headshot {
-  aspect-ratio: 4/5;
-  border-radius: 220px 220px 14px 14px;
+  aspect-ratio: 3/2;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  border-radius: 24px;
   overflow: hidden;
   background: linear-gradient(135deg, var(--blush-soft), var(--peach-soft));
   box-shadow: 0 30px 70px -20px rgba(42, 27, 46, 0.2);
   position: relative;
 }
 
+/* Soft inner vignette at the edges to blend into the page */
+.headshot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 50%, rgba(250, 245, 236, 0.25) 100%);
+  border-radius: inherit;
+}
+
 .headshot img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 22%;
+  object-position: center 35%;
+}
+
+.welcome-content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcome-content .signature-row {
+  justify-content: center;
 }
 
 /* Signature with body lines as signature mark on the left */
@@ -413,14 +435,13 @@ nav.top .container {
   height: auto;
   flex-shrink: 0;
   opacity: 0.7;
-  /* Hides the white JPG background, lets only the dark lines show */
-  mix-blend-mode: multiply;
   margin-top: -8px;
 }
 
 .signature-block {
-  flex: 1;
+  flex: 0 0 auto;
   padding-top: 6px;
+  text-align: left;
 }
 
 .welcome-content .eyebrow {
@@ -1100,7 +1121,7 @@ footer {
         <p>My sessions are gentle, slow, and trauma-informed. We work with red light therapy, tuning forks, vagus nerve stimulation, and the deeper layers of your tissue — opening space for what's stored there to soften and move.</p>
         <p>You don't have to perform here. You don't have to explain. You just have to show up.</p>
         <div class="signature-row">
-          <img class="signature-bodylines" src="bodylines.jpg" alt="">
+          <img class="signature-bodylines" src="bodylines-plum.png" alt="">
           <div class="signature-block">
             <div class="signature">Chenoa<span class="signature-role">Founder, LumenHeart</span></div>
           </div>
@@ -1240,7 +1261,7 @@ footer {
       </div>
 
       <aside class="pain-aside">
-        <img class="pain-aside-bodylines" src="bodylines.jpg" alt="">
+        <img class="pain-aside-bodylines" src="bodylines-plum.png" alt="">
         <div class="big">soma</div>
         <p style="font-family: 'Italiana', serif; font-size: 18px; color: var(--plum);">Greek. The body, as lived from within.</p>
         <p>Researchers now describe many chronic pain conditions as nervous system dysregulation — the body stuck in protection mode even after the original injury has healed.</p>
